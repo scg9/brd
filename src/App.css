@@ -1,38 +1,115 @@
-.App {
+/* .Mainwindow{
+height:600px;
+width:80%;
+position: relative;
+margin:20px auto;
+border: 1px solid rgba(94, 91, 91, 0.75);
+border-radius: 0.4em;
+box-shadow: 0 0 3px 0 rgba(94, 91, 91, 0.75);
+
+} */
+
+.Greyarea{
+  border-radius: 0.4em 0.4em 0 0;
+  width:100%;
+  /* background-color: #F1EBEB; */
+  height:1.5em;
+}
+.MainArea{
+  display:block;
+  margin-top: 5%;
+}
+.para1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MenuAndBrd {
+  justify-content: center;
+  top: 50%;
+  width: 100%;
+}
+.menu{
+  margin-left: 1rem;
+}
+#w3review{
+  height:100px;
+  width:100%;
+  background-color:whitesmoke;
+  border:none;
+  resize: none;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu{
+  position:absolute;
+  left:1rem;
+}
+p{
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btns{
+  display: flex;
+  margin-top:2%;
+  justify-content: space-between;
+}
+.openclosebrdmain{
+  margin: auto;
+ /* margin-top:5%; */
+ bottom: 0;
+  padding: 1em 1em ;
+  border:none;
+  background-color: #0d6efd;
+  width: 99%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left:5px;
+  justify-content: space-between;
+}
+#filelocbrd{
+  color: white  ;
+}
+.brdfile {
+  background-color: #0d6efd;
+  color: white;
+  border: 1px solid white;
+  padding: 0.2em;
+  margin:0.5em;
+}
+.openclosebtn{
+ 
+}
+.box{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.preview{
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  /* height: 200px; */
+  width: 100%;
+  background-color:whitesmoke;
+ /* display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center; */
+ margin: 5% 0;
 
-.App-link {
-  color: #61dafb;
 }
+.dropdownMenu{
+  display: flex;
+    align-items: flex-start;
+    margin-left: 15%;
+}
+.Dropdown{
+  max-width: 12%;
+}
+@media only screen and (max-width: 800px) {
+.openclosebrdmain{
+  display: flex;
+  flex-direction: column;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
 }
