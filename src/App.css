@@ -47,6 +47,12 @@ box-shadow: 0 0 3px 0 rgba(94, 91, 91, 0.75);
   resize: none;
 padding-bottom:10%;
 }
+.w3review1{height:60vh;
+  width:100%;
+  background-color:whitesmoke;
+  border:none;
+  resize: none;
+   padding-bottom:10%;}
 
 .menu{
   position:absolute;
@@ -69,31 +75,51 @@ p{
   margin-top: 10px;
 }
 .openclosebrdmain{
-  margin: auto;
+  margin-top: 10%;
  /* margin-top:5%; */
  bottom: 0;
-  padding: 1em 1em ;
+  padding: 0.5em 0.5em ;
   border:none;
   background-color: #0d6efd;
   width: 99%;
+  height: 5%;
   display: flex;
   position: absolute;
   bottom: 10px;
   left:5px;
   justify-content: space-between;
 }
+.OptionDropdown{
+  max-width: 12%;
+}
 #filelocbrd{
   color: white  ;
 }
-.brdfile {
+.brdfile2 {
   background-color: #0d6efd;
   color: white;
-  border: 1px solid white;
-  padding: 0.2em;
-  margin:0.5em;
+  border: 0.1px solid white;
+  padding:0  1.1em;
+ 
+  text-align: center;
+  justify-content: center;
+
+}
+.brdfile1{
+  background-color: #0d6efd;
+  margin-right: 5px;
+  color: white;
+  border: 0.1px solid white;
+  padding:0  1.1em;
+  text-align: center;
+  justify-content: center;
 }
 .openclosebtn{
- 
+ display: flex;
+ flex-direction: row;
+ margin-left: 5%;
+ justify-content: space-evenly;
+ display: inline-block;
 }
 .box{
   display: flex;
@@ -113,14 +139,27 @@ p{
  margin: 5% 0;
 
 }
-.dropdownMenu{
-  display: flex;
-    align-items: flex-start;
-    margin-left: 15%;
+
+/* select{
+  width: 30px;
+} */
+select option{
+  /* width: 50px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* width: fit-content; */
+  /* color: green; */
 }
+
+/* .dropdownMenu{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15%;
+} */
 .Dropdown{
   max-width: 15%;
-}
+ }
 .generatepreview{
   display: flex;
   /* flex-wrap: wrap; */

@@ -12,6 +12,7 @@ const Mainbox=()=>{
       <p className='para1'> <b>ABSLI BRD Automation</b></p>
       <div className='MenuAndBrd row'>
            <EnterTopic/>
+           {/* <OpenClosebrd/> */}
       </div>
     </div>
 </div>
