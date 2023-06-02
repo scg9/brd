@@ -1,0 +1,187 @@
+/* .Mainwindow{
+height:600px;
+width:80%;
+position: relative;
+margin:20px auto;
+border: 1px solid rgba(94, 91, 91, 0.75);
+border-radius: 0.4em;
+box-shadow: 0 0 3px 0 rgba(94, 91, 91, 0.75);
+
+} */
+
+.Greyarea{
+  border-radius: 0.4em 0.4em 0 0;
+  width:100%;
+  /* background-color: #F1EBEB; */
+  height:1.5em;
+}
+.MainArea{
+  display:block;
+  margin-top: 5%;
+}
+.para1{
+  text-align: center;
+}
+.Enterpara{
+  margin-left: 3%;
+}
+.MenuAndBrd {
+  justify-content: center;
+  top: 50%;
+  width: 50%;
+}
+.MenuAndBrd{
+  justify-content: center;
+  /* top: 50%; */
+  height: 60%;
+  width: 90%;
+}
+.menu{
+  margin-left: 1rem;
+}
+#w3review{
+  height:60vh;
+  width:100%;
+  background-color:whitesmoke;
+  border:none;
+  resize: none;
+padding-bottom:10%;
+}
+.w3review1{height:60vh;
+  width:100%;
+  background-color:whitesmoke;
+  border:none;
+  resize: none;
+   padding-bottom:10%;}
+
+.menu{
+  position:absolute;
+  left:1rem;
+}
+p{
+  text-align: center;
+}
+
+.btns{
+  /* display: flex; */
+  margin-top:2%;
+  /* justify-content: space-between;
+   */
+   align-items: center;
+
+}
+.btn{
+  align-items: center;
+  margin-top: 10px;
+}
+.openclosebrdmain{
+  margin-top: 10%;
+ /* margin-top:5%; */
+ bottom: 0;
+  padding: 0.5em 0.5em ;
+  border:none;
+  background-color: #0d6efd;
+  width: 99%;
+  height: 5%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left:5px;
+  justify-content: space-between;
+}
+.OptionDropdown{
+  max-width: 12%;
+}
+#filelocbrd{
+  color: white  ;
+}
+.brdfile2 {
+  background-color: #0d6efd;
+  color: white;
+  border: 0.1px solid white;
+  padding:0  1.1em;
+ 
+  text-align: center;
+  justify-content: center;
+
+}
+.brdfile1{
+  background-color: #0d6efd;
+  margin-right: 5px;
+  color: white;
+  border: 0.1px solid white;
+  padding:0  1.1em;
+  text-align: center;
+  justify-content: center;
+}
+.openclosebtn{
+ display: flex;
+ flex-direction: row;
+ margin-left: 5%;
+ justify-content: space-evenly;
+ display: inline-block;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.preview{
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  /* height: 200px; */
+  width: 100%;
+  background-color:whitesmoke;
+ /* display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center; */
+ margin: 5% 0;
+
+}
+
+/* select{
+  width: 30px;
+} */
+select option{
+  /* width: 50px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* width: fit-content; */
+  /* color: green; */
+}
+
+/* .dropdownMenu{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15%;
+} */
+.Dropdown{
+  max-width: 15%;
+ }
+.generatepreview{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  align-content: space-between;
+  width: 80%;
+  margin-left: 20%;
+  justify-content: space-between;
+  /* padding: 10px;  */
+  /* gap: 10%; */
+  /* padding:10%; */
+}
+@media only screen and (max-width: 800px) {
+.openclosebrdmain{
+  display: flex;
+  flex-direction: column;
+
+}
+}
+
+.textAndBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
